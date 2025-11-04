@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+}
+
+.bgBlack {
+	background-color: black;
+	color: white;
+}
+
+.autoTable,
+.autoTable th,
+.autoTable td {
+	border-collapse: collapse;
+}
+
+.autoTable tr:nth-child(odd) {
+	background-color: gray;
+}
+
+.autoTable th {
+	background-color: black;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.autoTable {
+	width: 100%;
+	align-items: center;
+}
+
+.autoTable td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+}
+
+@media only screen and (max-width: 640px) {
+	.autoTable th {
+		padding: 7px;
+	}
+}
