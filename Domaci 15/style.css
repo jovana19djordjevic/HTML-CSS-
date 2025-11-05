@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.colFlex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    gap: 6px;
+}
+
+.form {
+    margin: auto;
+    width: 270px;
+
+}
+
+.marginTop {
+    margin-top: 16px;
+}
+
+.padding {
+    padding: 4px 0;
+}
+
+.leftPadding {
+    padding-left: 30px;
+}
+
+@media only screen and (min-width: 641px) and (max-width : 1023px) {
+
+    .form {
+        width: 50%;
+
+    }
+
+    .colFlex {
+        margin-top: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .form {
+        width: 50%;
+    }
+
+}

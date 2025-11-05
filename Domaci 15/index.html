@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width: device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <section class="center">
+
+            <form class="form" action="">
+
+                <div class="colFlex">
+
+                    <label for="ime">Ime:</label>
+                    <input class="padding" id="ime" type="text" placeholder="Unesite vase ime" required>
+                    
+                </div>
+
+                 <div class="colFlex">
+
+                    <label for="adresa">Adresa:</label>
+                    <input class="padding" id="adresa" type="text" placeholder="Unesite vasu adresu" required>
+                    
+                </div>
+
+                <div class="colFlex">
+
+                    <label for="email">Email:</label>
+                    <input class="padding" id="email" type="email" placeholder="Unesite vas email" required>
+                    
+                </div>
+
+                <div class="colFlex">
+
+                    <label for="email">Odaberite grad:</label>
+                    <select class="padding" name="" id="">
+                        <option disabled selected value="">Izaberite grad</option>
+                        <option value="">Beograd</option>
+                        <option value="">Nis</option>
+                        <option value="">Kragujevac</option>
+                    </select>
+                    
+                </div>
+
+                <div class="colFlex leftPadding">
+                    <p>Odaberite nacin placanja</p>
+
+                    <div>
+                        <input checked id="card" name="payment" type="radio" value="card">
+                        <label for="card">Kreditnom karticom</label>
+                    </div>
+
+                    <div>
+                        <input id="home" name="payment" type="radio" value="home">
+                        <label for="home">Pouzecem</label>
+                    </div>
+                    
+                </div>
+
+                <div class="marginTop">
+
+                    <input id="check" type="checkbox" >
+                    <label for="check">Zelim da prima mejlove sa ponudama</label>
+                    
+                </div>
+
+                <div class="colFlex" >
+                    <input class="padding" type="submit" value="Posalji email">
+                </div>
+
+            </form>
+
+        </section>
+    </body>
+</html>
